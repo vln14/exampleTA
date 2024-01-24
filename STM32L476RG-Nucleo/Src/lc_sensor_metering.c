@@ -70,6 +70,7 @@ LcSensor_Sensor_f LcSensor4;                /* Lc Sensor 4 variables */
 LcSensor_IO_f LcIO;                         /* LC sensor Variables used to have a fast state modification - Updated in LcSensorInit() function */
 
 /* Function prototypes ------------------------------------------------------*/
+static void
 static void LC_Calibration(void);
 static uint32_t LC_Compute_Tcapture(uint32_t count_max, double_t freq_osc);
 static uint32_t LC_Compute_CountDetect(uint32_t count_max, uint32_t count_min);
